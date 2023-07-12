@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 
 def search_shopify_stores(query, num_results=10):
-    search_url = f"https://www.google.com/search?q={query}+site:myshopify.com"
+    search_url = f"https://www.google.com/search?q={query}+site:.store"
     output_file = "urls.txt"
 
     try:
